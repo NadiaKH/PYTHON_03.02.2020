@@ -125,17 +125,17 @@ class GraphIterator:
         
         
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
 
-    names = getUniqueNames('data')
+#    names = getUniqueNames('data')
     
-    graph = dict(key_val for key_val in [(name, []) for name in names])
+#    graph = dict(key_val for key_val in [(name, []) for name in names])
     
-    buildGraph(graph, 'data')
+#    buildGraph(graph, 'data')
         
     
-    for g in GraphIterator(graph):
-        pass
+#    for g in GraphIterator(graph):
+#        pass
 
 
 
