@@ -1,5 +1,5 @@
 import pytest
-from .code import * 
+from .code import getUniqueNames, buildGraph, GraphIterator
 
 def test_1():
     names = getUniqueNames('data')
