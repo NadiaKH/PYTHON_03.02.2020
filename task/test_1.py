@@ -1,5 +1,5 @@
 import pytest
-from code import *
+from .task/code import *
 
 def test_1():
     names = getUniqueNames('data')
